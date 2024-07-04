@@ -1,0 +1,21 @@
+.aboutMe,
+.interests,
+.contactForm {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+.ContactForm button {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+.ContactFormbutton:hover {
+    background-color: #555;
+}
