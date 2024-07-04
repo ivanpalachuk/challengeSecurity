@@ -1,8 +1,18 @@
 .container {
     padding: 20px;
+  
 }
 
 .list {
     list-style-type: none;
-    padding: 0;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.title {
+    text-align: left;
+    margin-bottom: 20px;
+    padding-left: 6rem;
 }

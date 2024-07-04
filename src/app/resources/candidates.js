@@ -18,7 +18,7 @@ const candidates = [
         id: "2",
         firstName: "Maria",
         lastName: "Gomez",
-        image: "https://via.placeholder.com/150",
+        image: "/2.jpeg",
         aboutMe: "Software engineer specialized in backend systems.",
         interests: [
             "Databases",
@@ -46,9 +46,9 @@ const candidates = [
     },
     {
         id: "4",
-        firstName: "Ana",
+        firstName: "Jorge",
         lastName: "Martinez",
-        image: "https://via.placeholder.com/150",
+        image: "/4.jpg",
         aboutMe: "Graphic designer with 3 years of experience in digital design.",
         interests: [
             "Graphic Design",
@@ -63,7 +63,7 @@ const candidates = [
         id: "5",
         firstName: "Luis",
         lastName: "Fernandez",
-        image: "https://via.placeholder.com/150",
+        image: "/5.webp",
         aboutMe: "Software developer specialized in mobile development.",
         interests: [
             "Mobile Development",
@@ -78,7 +78,7 @@ const candidates = [
         id: "6",
         firstName: "Laura",
         lastName: "Sanchez",
-        image: "https://via.placeholder.com/150",
+        image: "/6.jpg",
         aboutMe: "Data engineer with experience in big data analysis.",
         interests: [
             "Data Analysis",
@@ -108,9 +108,9 @@ const candidates = [
     },
     {
         id: "8",
-        firstName: "Elena",
+        firstName: "Ezequiel",
         lastName: "Garcia",
-        image: "https://via.placeholder.com/150",
+        image: "/8.webp",
         aboutMe: "Software developer interested in open source projects.",
         interests: [
             "Open Source",

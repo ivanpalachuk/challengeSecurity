@@ -7,21 +7,29 @@ import styles from '../styles/CandidateList.module.css';
 import Spinner from '../components/Spinner/Spinner';
 
 const CandidateList = () => {
-    const [candidates, setCandidates] = useState([]);
+    const [candidates, setCandidates] = useState(null);
 
     useEffect(() => {
-        //Aca  llamariamos a la api para traer los candidatos
-        setCandidates(candidatesData);
+
+        //El timeout es para simular el llamado a la db para la lista de candidatos
+        setTimeout(() => {
+            setCandidates(candidatesData);
+        }, 500);
     }, []);
 
-    if(!candidates) {
-        return <Spinner />
+
+    if (!candidates) {
+        return (
+            <div>
+                <Spinner />
+            </div>
+        )
     }
 
     return (
 
         <div className={styles.container}>
-            <h1>Lista de candidatos</h1>
+            <h1 className={styles.title}>Lista de candidatos</h1>
             <ul className={styles.list}>
                 {candidates.map(candidate => (
                     <CandidateCard key={candidate.id} candidate={candidate} />

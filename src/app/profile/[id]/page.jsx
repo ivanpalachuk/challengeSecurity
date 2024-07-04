@@ -1,7 +1,7 @@
 "use client";
 
 import candidatesData from '../../resources/candidates.js';
-import { Header, About, ContactForm, Interests } from '../../components/Profile/index.jsx';
+import { Header, About, ContactForm, Interests } from '../../components/CandidateDetail/index.jsx';
 import { useEffect, useState } from 'react';
 import styles from '../../styles/CandidateDetail.module.css';
 import Spinner from '../../components/Spinner/Spinner.jsx';

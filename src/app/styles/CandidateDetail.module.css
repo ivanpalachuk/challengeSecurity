@@ -5,8 +5,7 @@
     margin: 0 auto;
 }
 
-
-.ContactForm button {
+.contactForm button {
     margin-top: 20px;
     padding: 10px;
     border: none;
@@ -16,6 +15,16 @@
     cursor: pointer;
 }
 
-.ContactFormbutton:hover {
+.contactForm button:hover {
     background-color: #555;
+}
+
+.contactInput {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
 }

@@ -1,24 +1,46 @@
 .item {
     border: 1px solid #ddd;
     padding: 20px;
-    margin-bottom: 10px;
-    border-radius: 5px;
+    margin: 10px 10px;
+    border-radius: 10px;
     text-decoration: none;
     color: inherit;
     display: block;
+    width: 300px;
+    text-align: center;
+    color: black;
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .item:hover {
-    background-color: #f0f0f0;
+    background-color: #fFFFFF;
+    transform: scale(1.10) translateY(-10px);
+}
+
+.name {
+    border-bottom: 2px solid #1b80ec;
+    padding-bottom: 10px;
 }
 
 .image {
-    max-width: 150px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
     border-radius: 50%;
+    border: 1px solid #1b80ec;
 }
 
+
 .link {
-    /* Estilos opcionales para el enlace */
     text-decoration: none;
     color: inherit;
+}
+
+.about,
+.interests {
+    margin: 10px 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 300px;
 }
