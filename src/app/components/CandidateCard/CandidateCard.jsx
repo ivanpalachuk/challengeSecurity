@@ -4,6 +4,7 @@ import styles from "../../styles/CandidateCard.module.css"
 const CandidateCard = (props) => {
 
     const { candidate } = props
+    
     return (
         <Link href={`/profile/${candidate.id}`} style={{ textDecoration: 'none' }}>
             <li key={candidate.id} className={styles.item}>
