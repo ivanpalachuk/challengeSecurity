@@ -1,8 +1,8 @@
 .aboutMe,
-.interests,
-.contactForm {
+.interests {
     max-width: 600px;
     margin: 0 auto;
+    padding: 20px;
 }
 
 .contactForm button {
@@ -13,6 +13,8 @@
     background-color: #333;
     color: white;
     cursor: pointer;
+    width: 100%;
+    
 }
 
 .contactForm button:hover {
@@ -27,4 +29,25 @@
     border-radius: 5px;
     width: 100%;
     box-sizing: border-box;
+}
+
+.interestsItem {
+    padding: 0;
+    background-color: #f4f4f4;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.interestsList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contactForm {
+    display: flex;
+        flex-direction: column;
+        max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
 }

@@ -9,18 +9,26 @@ const Footer = () => {
             <div className={styles.footerContainer}>
                 <div className={styles.footerLeft}>
                     <h3>Enlaces útiles</h3>
-                    <ul>
-                        <li><a href="/">Inicio</a></li>
-                        <li><a href="/profile/7">Sobre el desarrollador</a></li>
-                        <li><a href="/candidates">Candidatos</a></li>
-                        <li><a href="#">Contacto</a></li>
+                    <ul className={styles.footerList}>
+                        <li className={styles.footerItem}><a href="/">Inicio</a></li>
+                        <li className={styles.footerItem}><a href="/profile/7">Sobre el desarrollador</a></li>
+                        <li className={styles.footerItem}><a href="/candidates">Candidatos</a></li>
+                        <li className={styles.footerItem}><a href="#">Contacto</a></li>
                     </ul>
                 </div>
                 <div className={styles.footerCenter}>
                     <h3>Contacto</h3>
                     <p>Dirección: Figueroa Alcorta 1554, Mar del plata</p>
-                    <p>Teléfono: +2235251836 </p>
-                    <p>Email: ivan.palachuk@outlook.com</p>
+                    <p>
+                        Teléfono:
+                        <a
+                            href="https://wa.me/2235251836"
+                            style={{ color: "#fff", textDecoration: "none" }}
+                        >
+                             +2235251836
+                        </a>
+                    </p>
+                    <p>Email: <a href="mailto:ivan.palachuk@outlook.com" style={{ color: "#fff", textDecoration: "none" }}>ivan.palachuk@outlook.com</a></p>
                 </div>
                 <div className={styles.footerRight}>
                     <h3>Seguime</h3>

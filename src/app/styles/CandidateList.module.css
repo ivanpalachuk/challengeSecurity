@@ -1,6 +1,6 @@
 .container {
     padding: 20px;
-  
+
 }
 
 .list {
@@ -12,7 +12,6 @@
 }
 
 .title {
-    text-align: left;
     margin-bottom: 20px;
-    padding-left: 6rem;
+    padding-left: 20px;
 }

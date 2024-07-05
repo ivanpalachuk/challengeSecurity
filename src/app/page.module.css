@@ -12,10 +12,10 @@
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
 
 .title {
-    font-size: 6vw;
     margin-bottom: 20px;
     opacity: 0;
     transform: translateY(20px);
@@ -28,7 +28,10 @@
 }
 
 .button {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
     padding: 10px 20px;
     margin: 10px;
     background-color: #257ddb;
@@ -50,4 +53,10 @@
 
 .button:hover {
     background-color: #0056b3;
+}
+
+@media (min-width: 768px) {
+    .title {
+       font-size: 6rem;
+    }
 }

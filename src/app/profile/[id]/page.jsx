@@ -28,13 +28,14 @@ const CandidateDetail = ({ params }) => {
     )
   }
 
-  return (
+  return (<>
+    <Header name={candidate.firstName} lastName={candidate.lastName} photo={candidate.image} />
     <div className={styles.container}>
-      <Header name={candidate.firstName} lastName={candidate.lastName} photo={candidate.image}/>
-      <About text={candidate.aboutMe}/>
-      <Interests interests={candidate.interests}/>
+      <About text={candidate.aboutMe} />
+      <Interests interests={candidate.interests} />
       <ContactForm mail={candidate.email} />
     </div>
+  </>
   );
 };
 
